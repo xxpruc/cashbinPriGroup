@@ -1,0 +1,26 @@
+p, vm_backup, vm, backup
+p, vm_restore, vm, restore
+p, vm_type_backup, vm_type, backup
+p, hyperv_restore, hyperv, restore
+p, hyperv_backup, huperv, backup
+p, vm_view, vm, view
+p, hyperv_view, hyperv, view
+g2, vm1_1, vm, org1
+g2, vm1_2, vm, org1
+g2, type_vm, vm1_1, org1
+g2, type_vm, vm1_2, org1
+g2, folder_1, vm1_1, org1
+g2, hyperv1_1, hyperv, org2
+g, usr_org1_di, role_org1_admin
+g, usr_org2_kancheng, role_org2_end_user
+g, role_org1_admin, pg_provision
+g, role_org1_admin, pg_provision
+g, role_org2_end_user, pg_view
+g, pg_provision, pg_vm_provision
+g, pg_provision, pg_hyperv_provision
+g, pg_view, vm_view
+g, pg_view, hyperv_view
+g, pg_vm_provision, vm_backup
+g, pg_vm_provision, vm_restore
+g, pg_hyperv_provision, hyperv_restore
+g, pg_hyperv_provision, hyperv_backup
